@@ -1,0 +1,15 @@
+// importando móduloA
+const moduloA = require('../../moduloA')
+// acessando a variável ola do módulo A
+console.log(moduloA.ola)
+
+// importando toda pasta c
+const c = require('./pastaC')
+console.log(c.ola2)
+
+// Criando um servidor que escuta na porta 8080
+const http = require('http')
+http.createServer((req, res) => {
+    res.write('Bom dia! Bem vindo ao servidor node')
+    res.end()
+}).listen(8080)

@@ -1,0 +1,1 @@
+this.ola2 = 'Legal' // O this torna a variável global
