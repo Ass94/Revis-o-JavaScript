@@ -1,0 +1,1 @@
+1. C:\Softwares\Java Script\Revisao-Aulas\node> npm i node-schedule.
